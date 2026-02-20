@@ -27,31 +27,22 @@ This project demonstrates basic routing, component structure, and responsive UI 
 ---
 
 ## 📂 Project Structure
-ShopZone/
+ShopZone
 │
-├── public/
+├── public/                     # Static files
+│
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ │ ├── Navbar.jsx
-│ │ └── Footer.jsx
-│ ├── pages/
-│ │ ├── Home.jsx
-│ │ ├── Shop.jsx
-│ │ ├── ProductDetails.jsx
-│ │ └── Contact.jsx
-│ ├── styles/
-│ │ ├── Home.css
-│ │ ├── Shop.css
-│ │ ├── Navbar.css
-│ │ └── Footer.css
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
+│   ├── assets/                 # Images
+│   ├── components/             # Reusable components
+│   ├── pages/                  # Route pages
+│   ├── styles/                 # CSS files
+│   ├── App.jsx                 # Router setup
+│   ├── main.jsx                # React DOM render
+│   └── index.css               # Global styles
 │
-├── package.json
-└── README.md
-
+├── vercel.json                 # Fix for page refresh routing
+├── package.json                # Dependencies & scripts
+└── README.md                   # Project documentation
 
 
 ---
