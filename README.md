@@ -59,7 +59,7 @@ ShopZone
 
 Open browser at:
 
-
+https://shopzone-sst1.vercel.app/
 
 
 ---
