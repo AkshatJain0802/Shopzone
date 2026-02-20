@@ -1,0 +1,15 @@
+.details {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+}
+
+.details img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+}
